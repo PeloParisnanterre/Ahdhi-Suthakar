@@ -1,0 +1,49 @@
+/* Fond du site */
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Nouveau dégradé plus propre */
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #6dd5fa);
+
+    background-attachment: fixed;
+}
+/* Titres */
+h1{
+    margin-left:30px;
+}
+
+/* Zone sommaire à droite */
+ul{
+    position:absolute;
+    right:120px;
+    top:120px;
+    list-style:none;
+}
+
+/* espace entre boutons */
+li{
+    margin:15px 0;
+}
+
+/* style bouton */
+a{
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+
+    border:3px solid black;
+    padding:10px 25px;
+    border-radius:8px;
+
+    transition: all 0.3s ease;
+}
+
+/* animation quand souris passe */
+a:hover{
+    background-color:black;
+    color:white;
+    transform:scale(1.1);
+    box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+}
